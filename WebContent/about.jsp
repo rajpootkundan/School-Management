@@ -51,7 +51,7 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="card" style="background: orange; padding:0px;margin:0px">
-                   <img src="image/logo.jpg" class="card-img-top">
+                   <img src="image/gallery/chhath1.jpg" class="card-img-top">
                       <div class="card-body">
                          <h3 style="text-align: center; color:white">Kundan Singh</h3>
                          <h4 style="text-align: center; color:white">Java Developer</h4>
