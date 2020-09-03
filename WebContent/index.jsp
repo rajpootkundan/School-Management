@@ -19,7 +19,7 @@
 <!------------------------------------------------- Start Menu Bar ------------------------------------------------------------>
 	<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
 		<a class="navbar-logo text-light" style="text-decoration: none; margin: 0px;padding: 0px;"href="#"> 
-			<img src="image/logo.jpg" class="img-responsive " style="width:65px; height:65px; border-radius:50%; margin:8px;"/>
+			<img src="image/gallery/chhath1.jpg" class="img-responsive " style="width:65px; height:65px; border-radius:50%; margin:8px;"/>
 			<!-- <br><span style="color:red;"id="myClock"></span> -->
 		</a>
 		<a class="navbar-brand" href="#">Kundan Singh</a>
