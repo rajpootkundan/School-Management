@@ -21,7 +21,7 @@
 		<a href="https://www.facebook.com/kundansingh.rajput.376695/"target="_blank">
 			<i class="fa fa-2x fa-facebook"></i>&nbsp;&nbsp;&nbsp;&nbsp;
 		</a>
-		<a href="https://www.instagram.com/?hl=en"target="_blank">
+		<a href="https://www.instagram.com/rajpoot_k.s_rana/"target="_blank">
 			<i class="fa fa-2x fa-instagram"></i>&nbsp;&nbsp;&nbsp;&nbsp;
 		</a>
 		<a href="" target="_blank" target="_blank">

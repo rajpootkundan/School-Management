@@ -24,10 +24,23 @@
 %>
 <!------------------------------------------------- Start Menu Bar ------------------------------------------------------------>
 	<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
-		<a class="navbar-logo text-light" style="text-decoration: none; margin: 0px;padding: 0px;"href="#"> 
-			<img src="image/logo.jpg" class="img-responsive " style="width:65px; height:65px; border-radius:50%; margin:8px;"/>
-		</a>
-		<a class="navbar-brand" href="#">Kundan Singh</a>
+<!------------------------------------------------- Logout Session ------------------------------------------------------------>
+			<ul class="nav navbar-nav float-right be-user-nav">
+				<li class="nav-item dropdown " >
+					<a class="nav-link  dropdown-toggle" data-toggle="dropdown" style="color: white;" role="button" aria-expanded="false">
+					<img src="image/gallery/chhath1.jpg" class="img-responsive"alt="Avatar" style="width:65px; height:65px; border-radius:50%;"/>
+					<span class="navbar-brand">Kundan Singh</span>
+					</a>
+					<div class="dropdown-menu" role="menu" style="padding: 0px; margin: 0px;font-weight: bold; background-color: darkblue;">
+						<div class="user-name" style="color: white; font-size: 20px;font-weight: bold; background-color: blue; margin: 0px; padding: 4px; text-align: center;">Kundan Singh</div>
+					
+					<a href="Login.jsp" class="dropdown-item"style="padding: 0px; margin: 0px;background-color: black; text-align: center; line-height: 30px;">
+						<i class="fa fa-sign-out"></i>
+						Logout
+					</a>
+					</div>
+				</li>
+			</ul>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -83,10 +96,7 @@
 						<a class="dropdown-item" href="teacherpayment.jsp">Teacher's Payment</a>
 						<a class="dropdown-item" href="studentsfee.jsp">Student's fee</a>
 					</div>
-				</li>  
-				<li class="nav-item dropdown">
-					<a class="nav-link" style=" text-decoration: none;color:white;" href="Login.jsp">Logout </a>
-				</li>  
+				</li>    
 			</ul>
 		</div>  
 	</nav>
