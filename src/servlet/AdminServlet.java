@@ -64,7 +64,7 @@ public class AdminServlet extends HttpServlet {
 		else{
 			error=true;
 			message="Login Denied";
-			rd=request.getRequestDispatcher("Login.jsp");
+			rd=request.getRequestDispatcher("index.html");
 		}
 		request.setAttribute("error", error);
 		request.setAttribute("message", message);
@@ -79,7 +79,7 @@ public class AdminServlet extends HttpServlet {
 			ams.setPassword(pass);
 			if(amserv.updateById(ams)>0){
 				System.out.println("Password change Sucessfully");
-				rd=request.getRequestDispatcher("Login.jsp");
+				rd=request.getRequestDispatcher("index.html");
 				rd.forward(request, response);
 			}else{
 				System.out.println("Password not channge");
@@ -97,7 +97,7 @@ public class AdminServlet extends HttpServlet {
 			AdminModel am1=new AdminModel(name, id, passw, ifsc, no, account,balance);
 			if(serv.insert(am1)>0){
 				System.out.println("Signup Sucessfully");
-				rd=request.getRequestDispatcher("Login.jsp");
+				rd=request.getRequestDispatcher("index.html");
 				rd.forward(request, response);
 			}else{
 				System.out.println("Unsucessfull");
