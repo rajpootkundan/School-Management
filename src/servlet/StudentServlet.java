@@ -26,7 +26,7 @@ public class StudentServlet extends HttpServlet {
 		String action=request.getParameter("action");
 		RequestDispatcher dispach=null;
 		if(action==null || action.equals("")){
-			dispach=request.getRequestDispatcher("Login.jsp");
+			dispach=request.getRequestDispatcher("index.html");
 			dispach.forward(request, response);
 		}
 		StudentService sserv=new StudentService();
