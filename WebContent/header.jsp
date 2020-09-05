@@ -19,7 +19,7 @@
 <body>
 <%
 	if(session.getAttribute("id")==null){
-		response.sendRedirect("Login.jsp");
+		response.sendRedirect("index.html");
 	}
 %>
 <!------------------------------------------------- Start Menu Bar ------------------------------------------------------------>
