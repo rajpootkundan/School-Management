@@ -1,8 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-    <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-    
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
@@ -85,11 +81,8 @@
             			<h5 class="card-title text-center text-white">Login</h5>
             			<label for="inputId">Admin Id</label>
               			<div class="input-container">
-              				<c:if test="${error==true}">
-								<p Style="color: red;">${message}</p>
-							</c:if>
-							<i class="fa fa-user icon"></i>
-                			<input type="text" id="inputId"name="inputId" class="form-control" placeholder="admin id"value="${cookie.id.value }" required autofocus>
+                                       <i class="fa fa-user icon"></i>
+                		       <input type="text" id="inputId"name="inputId" class="form-control" placeholder="admin id"value="${cookie.id.value }" required autofocus>
               			</div>
               			<label for="inputPassword">Password</label>
               			<div class="input-container">
